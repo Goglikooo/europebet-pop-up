@@ -1,0 +1,10 @@
+.App {
+  background-color: #171718;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px 15px;
+}

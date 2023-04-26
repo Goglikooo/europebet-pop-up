@@ -1,0 +1,10 @@
+.banner {
+  width: 100%;
+  background-color: red;
+  background: url(../../assets/malta.jpg) center repeat-x;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 250px;
+}
+
+/* es unda gavstilo ise rom mtliani gverdi daikavos paddingis gareshe */

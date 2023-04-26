@@ -1,0 +1,50 @@
+.arrow {
+  font-size: 14px;
+  align-self: center;
+  color: #bbbbbb;
+}
+
+.QandA-main-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.rules-and-conditions-header {
+  font-size: 16px;
+  line-height: 32px;
+  color: #ffffff;
+  font-family: Medium;
+}
+
+.QuestionOnly {
+  color: #bbbbbb;
+  font-size: 14px;
+  font-family: "Roman";
+  line-height: 17px;
+  background-color: #25292b;
+  padding: 7px 14px 9px 14px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.question-with-arrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 16px;
+}
+
+.answer-hidden {
+  display: none;
+}
+
+.answer-shown {
+  display: block;
+}

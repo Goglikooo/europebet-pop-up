@@ -1,0 +1,108 @@
+.tournament-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  color: white;
+  background-color: #25292b;
+  padding: 15px 0px;
+  border-radius: 10px;
+
+  background-image: linear-gradient(90deg, #25292b 40%, #ef5a21 40%);
+  background-size: 70% 3px;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+.tournament-card-header {
+  padding: 10px 0;
+}
+
+.tournament-card-event-times {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background: #171718;
+  padding: 10px 0px 0px 0px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+  background-image: url();
+}
+
+.bottom-images {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image-decoration {
+  max-width: 100px;
+}
+
+/* .tournament-card-ad-header {
+} */
+
+.tournament-card-time-component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 3px solid #f05a22;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding-right: 10px;
+}
+
+.clock-div {
+  width: 30px;
+  height: 30px;
+  background-color: #f05a22;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock-icon {
+  width: 20px;
+  height: 20px;
+  background-color: #f05a22;
+}
+/* 
+.tournament-card-time-hours {
+} */
+
+.tournament-card-info-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 4px;
+  font-family: "Medium";
+  font-size: 14px;
+}
+
+/* .tournament-card-all-info-span {
+}
+
+.tourmanet-card-schedule-info {
+} */
+
+.tournament-card-btn {
+  background-color: #f05a22;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  line-height: 19px;
+  font-family: Light;
+  color: white;
+  width: 147px;
+  height: 32px;
+  padding: 5px;
+  margin-top: 10px;
+}

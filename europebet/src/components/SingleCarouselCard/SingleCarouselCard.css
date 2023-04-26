@@ -1,0 +1,38 @@
+.single-card {
+  height: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.card-details {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 0px 5px;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 0;
+  height: 45%;
+  bottom: 0;
+}
+
+.span-element {
+  font-size: 13px;
+  word-break: normal;
+  white-space: normal;
+  font-family: Light;
+  font-weight: 500;
+  color: white;
+}
+
+.card-image {
+  max-width: 100%;
+}
+
+.image-div {
+  height: 70%;
+  z-index: 0;
+  position: absolute;
+  overflow: hidden;
+}

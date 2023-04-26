@@ -1,0 +1,55 @@
+.orange-dot {
+  width: 24px;
+  height: 24px;
+  background-color: #f05a22;
+  border-radius: 100px;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px 0px 15px;
+  width: 100%;
+}
+
+.sign-in-out-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.sign-in-out-wrapper a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  line-height: 19px;
+  font-size: 15px;
+  font-family: "Medium";
+  font-weight: 500;
+}
+
+.sign-in-out-wrapper a:hover {
+  cursor: pointer;
+}
+
+.sign-up {
+  width: 72px;
+  height: 19px;
+}
+
+.sign-in-div {
+  width: 72px;
+  height: 32px;
+  background-color: #ef602a;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-in {
+  width: 73px;
+  height: 19px;
+}

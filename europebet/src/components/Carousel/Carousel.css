@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+}
+
+.carousel-main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  box-sizing: border-box;
+  width: 160px;
+  height: 200px;
+  border-radius: 15px;
+  border: 1px solid rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.items {
+  position: relative;
+  width: 500px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  transition: all 0.2s;
+  transform: scale(0.98);
+  will-change: transform;
+  user-select: none;
+  cursor: pointer;
+  padding: 0;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 20px;
+}
+
+.items {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.items::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+.orange {
+  background: rgb(239, 84, 28);
+  background: linear-gradient(
+    0deg,
+    rgba(239, 84, 28, 1) 0%,
+    rgba(239, 84, 28, 0.84) 85%,
+    rgba(227, 7, 7, 0) 90%
+  );
+}
+
+.blue {
+  background: rgb(13, 100, 155);
+  background: linear-gradient(
+    0deg,
+    rgb(5, 92, 146) 0%,
+    rgb(42, 135, 193) 85%,
+    rgba(227, 7, 7, 0) 90%
+  );
+}
+
+.purple {
+  background: rgb(26, 23, 108);
+  background: linear-gradient(
+    0deg,
+    rgba(26, 23, 108, 1) 0%,
+    rgba(23, 18, 155, 1) 80%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}

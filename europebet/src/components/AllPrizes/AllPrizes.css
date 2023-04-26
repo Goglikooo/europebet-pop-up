@@ -1,0 +1,8 @@
+.main-wrapper-prizes {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  flex-direction: column;
+  padding: 14px;
+}

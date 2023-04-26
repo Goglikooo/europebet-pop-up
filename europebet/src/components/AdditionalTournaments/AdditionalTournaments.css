@@ -1,0 +1,33 @@
+.additional-tournaments-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 6px;
+  padding: 16px;
+  background-color: #2c3234;
+  border-radius: 15px;
+  box-sizing: border-box;
+  width: 100%;
+
+  background-image: linear-gradient(90deg, #2c3234 50%, #ef5a21 50%);
+  background-size: 70% 3px;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+.additional-tournaments-main-text {
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 20px;
+  font-family: Bold;
+  font-weight: 600;
+}
+
+.additional-tournaments-span {
+  font-size: 12px;
+  color: #ffffff;
+  line-height: 16px;
+  font-family: Light;
+}

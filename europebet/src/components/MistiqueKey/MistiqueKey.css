@@ -1,0 +1,53 @@
+.key-main-div {
+  background-color: #25292b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.key-main-header-div {
+  width: 100%;
+  padding: 16px;
+  background-color: #2c3234;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.key-main-header {
+  font-family: Bold;
+  font-size: 20px;
+  color: #ffe600;
+}
+
+.key-results {
+  padding: 16px;
+  height: 200px;
+  overflow: auto;
+}
+
+.key-results ::-webkit-scrollbar {
+  width: 1vw;
+  background-color: #ff0202;
+}
+
+.key-results ::-webkit-scrollbar-track {
+  background: #464646;
+  border-radius: 20px;
+}
+
+.key-results ::-webkit-scrollbar-thumb {
+  background: rgb(255, 81, 0);
+  border-radius: 20px;
+}
+
+.key-single-result {
+}
+
+.key-single-result-number {
+}
+
+.key-single-result-text {
+}
