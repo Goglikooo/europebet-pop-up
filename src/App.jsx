@@ -15,6 +15,7 @@ import DailyTournaments from "./components/DailyTournaments/DailyTournaments";
 import FestivalMalta from "./components/FestivalMalta/FestivalMalta";
 import ACategoryTourComponent from "./components/ACategoryTour/ACategoryTourComponent";
 import MistiqueKey from "./components/MistiqueKey/MistiqueKey";
+import JourneyWin from "./components/winJourney/JourneyWin";
 import { useState } from "react";
 
 function App() {
@@ -62,11 +63,13 @@ function App() {
       {clickedButton == 3 ? (
         <>
           <FestivalMalta />
+          <JourneyWin />
           <MistiqueKey />
         </>
       ) : null}
 
       <RulesAndConditions />
+
       <Carousel />
     </div>
   );

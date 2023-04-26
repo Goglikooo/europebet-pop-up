@@ -1,0 +1,85 @@
+.main-gift-list-wrapper {
+  border-radius: 15px;
+  background-color: #25292b;
+}
+.full-gift-list {
+  padding: 14px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.gift-list-header {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: Bold;
+  color: #ffffff;
+  background-color: #2c3234;
+  padding: 16px;
+  text-align: center;
+  border-radius: 15px;
+
+  background-image: linear-gradient(90deg, #2c3234 40%, #ef5a21 40%);
+  background-size: 70% 3px;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+.single-gift-item {
+  width: 100%;
+  background-color: #171718;
+  padding: 12px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 3px;
+
+  background-image: url("../../assets/poker-item-2-ticket-icon.png");
+  background-repeat: no-repeat;
+  background-position: top right 8%;
+}
+
+.single-gift-item-header {
+  font-family: Bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.single-gift-item-category {
+  font-family: Medium;
+  font-size: 13px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.single-gift-item-category2 {
+  font-family: light;
+  color: #ffffff;
+}
+.single-gift-item-disclaimer {
+  font-family: Medium;
+  font-size: 13px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.gift-list-disclaimer-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 16px;
+  gap: 8px;
+}
+
+.gift-list-disclaimer {
+  font-family: Normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #ffffff;
+  text-align: center;
+}

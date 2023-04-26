@@ -1,53 +1,83 @@
 .key-main-div {
   background-color: #25292b;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 15px;
+  padding-bottom: 30px;
 }
 
 .key-main-header-div {
-  width: 100%;
-  padding: 16px;
   background-color: #2c3234;
-  border-radius: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 15px;
+
+  background-image: linear-gradient(90deg, #2c3234 40%, #ef5a21 40%);
+  background-size: 70% 3px;
+  background-position: top left;
+  background-repeat: no-repeat;
 }
 
 .key-main-header {
   font-family: Bold;
   font-size: 20px;
   color: #ffe600;
+  margin: 0;
+}
+
+.result-wrapper {
+  height: 360px;
+  overflow-y: scroll;
+  border-radius: 15px;
+  margin: 15px 15px 5px 5px;
 }
 
 .key-results {
-  padding: 16px;
-  height: 200px;
-  overflow: auto;
+  height: 1000px;
+  padding: 0px 10px 0 10px;
 }
 
-.key-results ::-webkit-scrollbar {
-  width: 1vw;
-  background-color: #ff0202;
+.result-wrapper::-webkit-scrollbar {
+  width: 4px;
 }
 
-.key-results ::-webkit-scrollbar-track {
-  background: #464646;
+.result-wrapper::-webkit-scrollbar-track {
+  background: #2c3234;
   border-radius: 20px;
 }
 
-.key-results ::-webkit-scrollbar-thumb {
+.result-wrapper::-webkit-scrollbar-thumb {
   background: rgb(255, 81, 0);
   border-radius: 20px;
 }
 
 .key-single-result {
+  background-color: #1e2122;
+  border: 2px solid #2c3234;
+  padding: 10px 10px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
 }
 
 .key-single-result-number {
+  font-size: 10px;
+  font-family: Bold;
+  line-height: 7px;
+  color: #ffffff;
+  padding: 10px;
+  background-color: #2c3234;
+  border-radius: 50%;
 }
 
 .key-single-result-text {
+  font-family: Medium;
+  font-size: 12px;
+  line-height: 18px;
+  color: #ffffff;
 }
