@@ -1,0 +1,26 @@
+.footer {
+  width: 100%;
+  background-color: #171718;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  border-top-style: solid;
+  border-top-color: #f05a22;
+}
+
+.footer-btn {
+  padding: 2px;
+  background-color: #f05a22;
+  border-radius: 10px;
+  width: 25%;
+  text-align: center;
+  color: white;
+  border: none;
+  height: 30px;
+}

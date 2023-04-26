@@ -17,7 +17,7 @@ import ACategoryTourComponent from "./components/ACategoryTour/ACategoryTourComp
 import MistiqueKey from "./components/MistiqueKey/MistiqueKey";
 import JourneyWin from "./components/winJourney/JourneyWin";
 import { useState } from "react";
-
+import Footer from "./components/Footer/Footer";
 function App() {
   const [clickedButton, setClickedButton] = useState(1);
 
@@ -71,6 +71,8 @@ function App() {
       <RulesAndConditions />
 
       <Carousel />
+
+      <Footer />
     </div>
   );
 }
