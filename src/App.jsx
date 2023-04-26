@@ -59,11 +59,15 @@ function App() {
         </>
       ) : null}
 
-      {clickedButton == 3 ? <FestivalMalta /> : null}
+      {clickedButton == 3 ? (
+        <>
+          <FestivalMalta />
+          <MistiqueKey />
+        </>
+      ) : null}
 
       <RulesAndConditions />
       <Carousel />
-      <MistiqueKey />
     </div>
   );
 }
