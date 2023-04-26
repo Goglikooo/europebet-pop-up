@@ -15,9 +15,9 @@ export default function ACategoryTourComponent(props) {
 
   return (
     <div className="a-category-tournament-benefits">
-      {benefits.slice(0, numberOfBenefits).map((item) => {
+      {benefits.slice(0, numberOfBenefits).map((item, i) => {
         return (
-          <div className="single-benefit-div" key={item.title}>
+          <div className="single-benefit-div" key={i}>
             <img src={item.img} className="single-benefit-image" />
             <span className="single-benefit-title">{item.title}</span>
           </div>

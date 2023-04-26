@@ -9,11 +9,11 @@ export default function Carousel() {
   return (
     <div className="carousel-main">
       <CustomCarousel>
-        {cards.map((index) => {
+        {cards.map((index, i) => {
           return (
             <Box
               index={index}
-              key={index.key}
+              key={i}
               headline={index.headline}
               mainText={index.mainText}
               image={index.image1}
@@ -102,42 +102,36 @@ function Box({ index, headline, mainText, image, styles }) {
 
 let cards = [
   {
-    key: 1,
     headline: "მიიღე 300% ქეშბ…",
     mainText: "retrieve 300% bet amount as real money…",
     image1: `${card1Background}`,
     style: "blue",
   },
   {
-    key: 2,
     headline: "მალე",
     mainText: "retrieve 300% bet amount as real money…",
     image1: `${card2Background}`,
     style: "orange",
   },
   {
-    key: 3,
     headline: "მოიგე ჯეკპოტი",
     mainText: "retrieve 300% bet amount as real money…",
     image1: `${card3Background}`,
     style: "purple",
   },
   {
-    key: 4,
     headline: "მიიღე 300% ქეშბ…",
     mainText: "retrieve 300% bet amount as real money…",
     image1: `${card1Background}`,
     style: "blue",
   },
   {
-    key: 5,
     headline: "მალე",
     mainText: "retrieve 300% bet amount as real money…",
     image1: `${card2Background}`,
     style: "orange",
   },
   {
-    key: 6,
     headline: "მოიგე ჯეკპოტი",
     mainText: "retrieve 300% bet amount as real money…",
     image1: `${card3Background}`,

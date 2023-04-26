@@ -7,9 +7,9 @@ export default function WinJourney() {
     <div className="main-gift-list-wrapper">
       <h3 className="gift-list-header">მოიგე საგზური 30 აპრილის ტურნირებზე</h3>
       <div className="full-gift-list">
-        {journeyObj.map((item) => {
+        {journeyObj.map((item, i) => {
           return (
-            <div className="single-gift-item">
+            <div className="single-gift-item" key={i}>
               <span className="single-gift-item-header">{item.header}</span>
               <span className="single-gift-item-category">{item.category}</span>
               <span className="single-gift-item-category2">

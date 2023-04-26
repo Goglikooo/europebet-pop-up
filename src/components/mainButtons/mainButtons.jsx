@@ -7,6 +7,7 @@ export default function mainButtons(props) {
 
   const handleClick = (num) => {
     setClickedButton(num);
+    return true;
   };
 
   //   const [clickedButton, setClickedButton] = useState(1);

@@ -9,9 +9,9 @@ export default function MistiqueKey() {
       </div>
       <div className="result-wrapper">
         <div className="key-results">
-          {mistiqueKeyObj.map((item) => {
+          {mistiqueKeyObj.map((item, i) => {
             return (
-              <div className="key-single-result">
+              <div className="key-single-result" key={i}>
                 <span className="key-single-result-number">{item.number}</span>
                 <span className="key-single-result-text">{item.text}</span>
               </div>

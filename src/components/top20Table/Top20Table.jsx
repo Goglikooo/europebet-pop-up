@@ -157,9 +157,9 @@ export default function Top20Table(props) {
           <label className="headlines">პრიზი</label>
         </div>
         <div className="leaderbord-results-box">
-          {obj.slice(0, topN).map((item) => {
+          {obj.slice(0, topN).map((item, i) => {
             return (
-              <div className="leaderbord-results-wrapper" key={item.rank}>
+              <div className="leaderbord-results-wrapper" key={i}>
                 <div className="rank-background">
                   <span className="rank-number top20-center">{item.rank}</span>
                 </div>
