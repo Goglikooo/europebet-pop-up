@@ -7,8 +7,9 @@
   color: white;
   background-color: #25292b;
   padding: 15px 0px;
-  border-radius: 10px;
 
+  border-radius: 10px;
+  width: 100%;
   background-image: linear-gradient(90deg, #25292b 40%, #ef5a21 40%);
   background-size: 70% 3px;
   background-position: top left;
@@ -20,6 +21,8 @@
 }
 
 .tournament-card-event-times {
+  width: 100%;
+  padding: 0px 15px 0px 15px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -105,4 +108,12 @@
   height: 32px;
   padding: 5px;
   margin-top: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+  .tournament-card {
+    border-radius: 10px;
+    margin: 0px 50px 0px 50px;
+    width: 600px;
+  }
 }

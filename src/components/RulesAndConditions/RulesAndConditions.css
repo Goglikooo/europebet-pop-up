@@ -5,7 +5,6 @@
 }
 
 .QandA-main-container {
-  width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -37,7 +36,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  width: 100%;
   gap: 16px;
 }
 
@@ -47,4 +46,13 @@
 
 .answer-shown {
   display: block;
+}
+
+@media only screen and (min-width: 600px) {
+  .QandA-main-container {
+    border-radius: 10px;
+    padding: 0 50px 50px 50px;
+    width: 700px;
+    flex-direction: column;
+  }
 }

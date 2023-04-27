@@ -1,6 +1,6 @@
 .key-main-div {
   background-color: #25292b;
-  width: 100%;
+
   box-sizing: border-box;
   border-radius: 15px;
   padding-bottom: 30px;
@@ -80,4 +80,15 @@
   font-size: 12px;
   line-height: 18px;
   color: #ffffff;
+}
+
+@media only screen and (min-width: 600px) {
+  .key-main-div {
+    width: 600px;
+  }
+
+  .key-main-header {
+    width: 600px;
+    text-align: center;
+  }
 }

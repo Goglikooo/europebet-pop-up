@@ -169,3 +169,10 @@ da mere gavaketo qvemot rac iqneba is
   border-radius: 30px;
   color: white;
 }
+
+@media only screen and (min-width: 600px) {
+  .leaderbord-wrapper {
+    padding: 0 50px;
+    border-radius: 10px;
+  }
+}

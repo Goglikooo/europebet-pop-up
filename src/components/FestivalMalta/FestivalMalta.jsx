@@ -20,9 +20,11 @@ export default function FestivalMalta() {
           15-დან 21 მაისის ჩათვლით მალტა პოკერის ფესტივალს უმასპინძლებს
         </span>
       </div>
-      <ACategoryTour benefitNumberProps={5} />
-      <ACategoryTour benefitNumberProps={5} />
-      <ACategoryTour benefitNumberProps={4} />
+      <div className="category-benefits">
+        <ACategoryTour benefitNumberProps={5} />
+        <ACategoryTour benefitNumberProps={5} />
+        <ACategoryTour benefitNumberProps={4} />
+      </div>
     </div>
   );
 }

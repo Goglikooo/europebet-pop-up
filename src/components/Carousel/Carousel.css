@@ -77,3 +77,11 @@ body {
     rgba(255, 255, 255, 0) 100%
   );
 }
+
+@media only screen and (min-width: 600px) {
+  .items {
+    border-radius: 10px;
+    margin: 0px 50px 50px 50px;
+    width: 700px;
+  }
+}

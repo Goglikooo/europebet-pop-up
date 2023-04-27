@@ -116,3 +116,23 @@
   font-size: 14px;
   line-height: 17px;
 }
+
+@media only screen and (min-width: 600px) {
+  .main-container-daily-tournament {
+    border-radius: 10px;
+    margin: 0px 50px 0px 50px;
+    width: 600px;
+    background-color: #1e2122;
+    padding: 30px 50px;
+  }
+
+  .daily-tournament-wrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .single-banner2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+}

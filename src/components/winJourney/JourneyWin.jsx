@@ -9,7 +9,7 @@ export default function WinJourney() {
       <div className="full-gift-list">
         {journeyObj.map((item, i) => {
           return (
-            <div className="single-gift-item" key={i}>
+            <div className={`single-gift-item single-gift-item${i}`} key={i}>
               <span className="single-gift-item-header">{item.header}</span>
               <span className="single-gift-item-category">{item.category}</span>
               <span className="single-gift-item-category2">

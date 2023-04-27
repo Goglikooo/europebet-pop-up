@@ -9,8 +9,7 @@
   background-color: #2c3234;
   border-radius: 15px;
   box-sizing: border-box;
-  width: 100%;
-
+  margin-top: 50px;
   background-image: linear-gradient(90deg, #2c3234 50%, #ef5a21 50%);
   background-size: 70% 3px;
   background-position: top left;
@@ -30,4 +29,11 @@
   color: #ffffff;
   line-height: 16px;
   font-family: Light;
+}
+
+@media only screen and (min-width: 600px) {
+  .additional-tournaments-wrapper {
+    border-radius: 10px;
+    margin: 50px;
+  }
 }

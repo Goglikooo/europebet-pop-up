@@ -9,7 +9,11 @@ export default function DailyTournaments() {
         <div className="daily-tournament-wrapper">
           <SingleTournament />
           <SingleTournament />
-          <SingleTournament backgroundimage={2} dateColor={2} />
+          <SingleTournament
+            backgroundimage={2}
+            dateColor={2}
+            className={"grid-span-2"}
+          />
         </div>
         <div>
           <span className="daily-tournament-disclaimer">

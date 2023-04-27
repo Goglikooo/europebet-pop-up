@@ -56,3 +56,21 @@
   line-height: 17px;
   color: #ffffff;
 }
+
+@media only screen and (min-width: 600px) {
+  .festival-malta-main-div {
+    border-radius: 10px;
+    margin: 0px 50px 0px 50px;
+    width: 600px;
+  }
+  .malta-img-3rd-page {
+    max-height: 250px;
+    width: 100%;
+  }
+  .category-benefits {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}

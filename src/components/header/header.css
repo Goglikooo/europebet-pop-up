@@ -53,3 +53,15 @@
   width: 73px;
   height: 19px;
 }
+
+@media only screen and (min-width: 600px) {
+  .sign-in-out-wrapper,
+  .orange-dot {
+    display: none;
+  }
+
+  .header-wrapper {
+    margin: 0;
+    padding: 0;
+  }
+}

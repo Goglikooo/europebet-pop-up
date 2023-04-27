@@ -30,7 +30,7 @@ function App() {
       <MainButtons num={clickedButton} setClickedButton={setClickedButton} />
 
       {clickedButton == 1 ? (
-        <>
+        <div className="leaderboard-wrapper-div">
           <LeaderBoard
             mainHeader={"1₾ რეიქი = 1 ქულას"}
             numOfTop20={2}
@@ -38,7 +38,7 @@ function App() {
           />
 
           <AdditionalTournaments />
-        </>
+        </div>
       ) : null}
 
       {clickedButton == 2 ? (

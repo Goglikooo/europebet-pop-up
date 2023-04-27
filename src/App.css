@@ -8,3 +8,12 @@
   gap: 20px;
   padding: 10px 15px;
 }
+
+@media only screen and (min-width: 600px) {
+  .App {
+    width: 700px;
+    margin: 20px auto;
+    padding: 0;
+    border-radius: 10px;
+  }
+}
