@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from "react";
-import CarouselCSS from "./Carousel.css";
+import "./Carousel.css";
 import SingleCarouselCard from "../SingleCarouselCard/SingleCarouselCard";
-import headline from "../headline/headline";
 import card1Background from "../../assets/card-background1.png";
 import card2Background from "../../assets/card-background2.png";
 import card3Background from "../../assets/card-background3.png";

@@ -1,5 +1,5 @@
 import React from "react";
-import Top20TableCSS from "./Top20Table.css";
+import "./Top20Table.css";
 import InformationButton from "../../assets/example-icon.png";
 import Voucher from "../../assets/gift-card.png";
 import DownVector from "../../assets/mechanic-icon.png";

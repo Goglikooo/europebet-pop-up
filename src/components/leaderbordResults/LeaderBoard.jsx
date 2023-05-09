@@ -1,6 +1,6 @@
 import React from "react";
 import Top20Table from "../top20Table/Top20Table";
-import LeaderBoardCSS from "../leaderbordResults/LeaderBoard.css";
+import "../leaderbordResults/LeaderBoard.css";
 import AllPrizes from "../AllPrizes/AllPrizes";
 
 export default function LeaderBoard(props) {

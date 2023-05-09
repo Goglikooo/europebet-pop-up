@@ -1,5 +1,5 @@
 import React from "react";
-import DailyTournaments from "./DailyTournaments.css";
+import "./DailyTournaments.css";
 
 export default function SingleTournament(props) {
   const { backgroundimage, dateColor } = props;

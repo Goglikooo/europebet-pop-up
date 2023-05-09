@@ -1,5 +1,5 @@
 import React from "react";
-import ACategoryTourCSS from "./ACategoryTour.css";
+import "./ACategoryTour.css";
 
 // assets
 

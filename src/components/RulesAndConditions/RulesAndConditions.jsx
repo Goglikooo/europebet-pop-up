@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import RulesAndConditionsCSS from "../RulesAndConditions/RulesAndConditions.css";
+import "../RulesAndConditions/RulesAndConditions.css";
 
 export default function RulesAndConditions() {
   const [openQuestion, setOpenQuestion] = useState(null);

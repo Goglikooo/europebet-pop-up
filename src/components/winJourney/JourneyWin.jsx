@@ -1,5 +1,5 @@
 import React from "react";
-import winJourneyCSS from "./WinJourney.css";
+import "./WinJourney.css";
 import backgroundIcon from "../../assets/poker-item-2-ticket-icon.png";
 
 export default function WinJourney() {

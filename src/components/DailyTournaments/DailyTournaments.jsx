@@ -1,5 +1,5 @@
 import React from "react";
-import DailyTournamentsCSS from "./DailyTournaments.css";
+import "./DailyTournaments.css";
 import SingleTournament from "./SingleTournament";
 export default function DailyTournaments() {
   return (

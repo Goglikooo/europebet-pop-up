@@ -1,5 +1,5 @@
 import React from "react";
-import MistiqueKeyCSS from "./MistiqueKey.css";
+import "./MistiqueKey.css";
 
 export default function MistiqueKey() {
   return (

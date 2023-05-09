@@ -1,5 +1,5 @@
 import React from "react";
-import TournamentsAndSatelitesCSS from "../TournamentsAndSatelites/TournamentsAndSatelites.css";
+import "../TournamentsAndSatelites/TournamentsAndSatelites.css";
 import PromoImageLeft from "../../assets/promo-left-img.png";
 import PromoImageRight from "../../assets/promo-right-img.png";
 import ClockIcon from "../../assets/clock-icon.png";

@@ -1,5 +1,5 @@
 import React from "react";
-import MainButtonsCSS from "./mainButtons.css";
+import "./mainButtons.css";
 import { useState, useEffect } from "react";
 
 export default function mainButtons(props) {

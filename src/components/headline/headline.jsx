@@ -1,5 +1,5 @@
 import React from "react";
-import headlineCSS from "./headline.css";
+import "./headline.css";
 
 export default function headline() {
   return (

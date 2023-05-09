@@ -1,5 +1,5 @@
 import React from "react";
-import FestivalMaltaCSS from "./FestivalMalta.css";
+import "./FestivalMalta.css";
 import ACategoryTour from "../ACategoryTour/ACategoryTour";
 import maltaImg from "../../assets/malta.jpg";
 export default function FestivalMalta() {
