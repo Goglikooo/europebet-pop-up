@@ -32,6 +32,8 @@
   border-radius: 20px;
 }
 
+/* scroll bar modifications */
+
 .leaderbord-box ::-webkit-scrollbar {
   width: 1vw;
 }
@@ -140,7 +142,7 @@ da mere gavaketo qvemot rac iqneba is
 
 .reiki h1 {
   font-family: Bold;
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-align: center;
 }
 
@@ -171,8 +173,27 @@ da mere gavaketo qvemot rac iqneba is
 }
 
 @media only screen and (min-width: 600px) {
-  .leaderbord-wrapper {
-    padding: 0 50px;
-    border-radius: 10px;
+  .leaderbord-box {
+    padding: 0 10px;
+  }
+
+  .leaderbord-box ::-webkit-scrollbar {
+    width: 0.3vw;
+  }
+  .leaderbord-wrapper-collect {
+    width: 60%;
+  }
+
+  .reiki h1 {
+    font-size: 1.3rem;
+  }
+  .leaderbord-header {
+    font-size: 15px;
+  }
+  .headlines {
+    font-size: 15px;
+  }
+  .leaderbord-results-wrapper {
+    font-size: 13px;
   }
 }

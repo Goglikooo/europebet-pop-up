@@ -56,6 +56,11 @@
   line-height: 17px;
   color: #ffffff;
 }
+.category-benefits {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 
 @media only screen and (min-width: 600px) {
   .festival-malta-main-div {
@@ -71,6 +76,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    flex-direction: row;
     gap: 10px;
   }
 }

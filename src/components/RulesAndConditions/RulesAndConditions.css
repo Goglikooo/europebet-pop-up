@@ -55,4 +55,12 @@
     width: 700px;
     flex-direction: column;
   }
+
+  .rules-and-conditions-header {
+    font-size: 20px;
+  }
+
+  .QuestionOnly {
+    font-size: 17px;
+  }
 }

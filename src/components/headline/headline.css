@@ -55,5 +55,13 @@
     border-radius: 30px;
     background-color: rgb(202, 202, 202);
     opacity: 0.8;
+    font-family: Bold;
+    font-size: 14px;
+  }
+
+  .x-btn:hover {
+    cursor: pointer;
+    background-color: rgb(234, 233, 233);
+    font-size: 16px;
   }
 }

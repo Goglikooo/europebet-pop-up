@@ -91,32 +91,33 @@
 
   .full-gift-list {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas:
+      "pirveli Meotxe Meotxe"
+      "pirveli Meotxe Meotxe"
+      "Meore Meotxe Meotxe"
+      "Meore Mexute Mexute"
+      "Mesame Mexute Mexute"
+      "Mesame Mexute Mexute";
+
+    padding: 10px;
+    border-radius: 15px;
   }
 
   .single-gift-item0 {
-    grid-row: 1 / 2;
-    grid-column: 1/2;
-    align-self: flex-start;
+    grid-area: pirveli;
   }
   .single-gift-item1 {
-    grid-row: 2 / 3;
-    grid-column: 1/2;
-    align-self: flex-start;
+    grid-area: Meore;
   }
   .single-gift-item2 {
-    grid-row: 3/4;
-    grid-column: 1/2;
-    align-self: flex-start;
+    grid-area: Mesame;
   }
   .single-gift-item3 {
-    grid-row: 1/2;
-    grid-column: 2/4;
+    grid-area: Meotxe;
   }
   .single-gift-item4 {
-    grid-row: 2/4;
-    grid-column: 2/4;
-    align-self: flex-start;
+    grid-area: Mexute;
   }
 }

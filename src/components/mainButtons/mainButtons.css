@@ -62,4 +62,13 @@
     padding: 0 50px;
     border-radius: 10px;
   }
+
+  .stage-dates {
+    font-size: 16px;
+    font-family: "Light";
+  }
+
+  .stage-name {
+    font-size: 14px;
+  }
 }

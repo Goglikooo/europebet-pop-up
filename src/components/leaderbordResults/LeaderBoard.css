@@ -20,6 +20,7 @@
   font-family: Light;
   color: white;
 }
+
 .disclaimer-wrapper a {
   color: #ef5a21;
 }
@@ -28,5 +29,8 @@
   .main-container {
     border-radius: 10px;
     margin: 50px;
+  }
+  .disclaimer-wrapper {
+    font-size: 15px;
   }
 }

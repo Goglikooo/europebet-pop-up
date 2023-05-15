@@ -96,4 +96,16 @@ let mistiqueKeyObj = [
     number: "1",
     text: "სპეციალური ტურნირი Cashgame Sharks II ადგილი",
   },
+  {
+    number: "1",
+    text: "სპეციალური ტურნირი Cashgame Sharks II ადგილი",
+  },
+  {
+    number: "1",
+    text: "სპეციალური ტურნირი Cashgame Sharks II ადგილი",
+  },
+  {
+    number: "1",
+    text: "სპეციალური ტურნირი Cashgame Sharks II ადგილი",
+  },
 ];
